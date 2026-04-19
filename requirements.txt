@@ -1,0 +1,16 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+flask>=3.0.0
+
+# ── Offline pre-trained transformer (Tier 2 NLP — optional but recommended) ──
+# Remove the comments below to install the offline AI model support.
+# After installing, the model (~2 GB) downloads automatically on first use.
+#
+# transformers>=4.40.0
+# torch>=2.0.0
+# accelerate>=0.27.0     # optional: faster model loading on GPU
+#
+# Quick install command:
+#   pip install transformers torch accelerate
+#
+# CPU-only install (smaller download, no CUDA):
+#   pip install transformers torch --index-url https://download.pytorch.org/whl/cpu
